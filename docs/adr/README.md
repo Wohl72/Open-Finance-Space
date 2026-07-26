@@ -23,3 +23,8 @@ ADRs werden fortlaufend nummeriert:
 
 - ADR-0001-Beschreibung.md
 - ADR-0002-Beschreibung.md
+## Aktuelle ADRs
+
+| Nummer | Titel | Status |
+|---|---|---|
+| ADR-0001 | Projektgrundlage Open Finance Space | Akzeptiert |
