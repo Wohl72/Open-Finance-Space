@@ -16,21 +16,35 @@ Die technische Basis muss:
 
 ## Entscheidung
 
-Die endgültige Technologieauswahl wird dokumentiert, bevor die Implementierung beginnt.
+Die Technologieauswahl wird bewusst dokumentiert.
 
-Die Architektur wird folgende Prinzipien verfolgen:
+Die Architektur folgt diesen Prinzipien:
 
-- klare Trennung zwischen Frontend, Backend und Datenhaltung
+- Trennung von Frontend, Backend und Datenhaltung
 - API-basierte Kommunikation
 - sichere Verarbeitung von Finanzdaten
 - nachvollziehbare Änderungen durch Versionskontrolle
 
+## Vorgesehene Komponenten
+
+### Frontend
+
+Wird nach Evaluierung einer geeigneten modernen Web-Technologie festgelegt.
+
+### Backend
+
+Wird nach Evaluierung einer geeigneten Backend-Technologie festgelegt.
+
+### Datenbank
+
+Die Datenhaltung wird unter Berücksichtigung von Sicherheit, Konsistenz und Erweiterbarkeit ausgewählt.
+
 ## Konsequenzen
 
 - Technische Entscheidungen bleiben nachvollziehbar.
-- Änderungen am Stack werden über ADRs dokumentiert.
+- Änderungen am Technologie-Stack werden dokumentiert.
 - Die Architektur bleibt langfristig wartbar.
 
 ## Alternativen
 
-Eine Entwicklung ohne dokumentierte Architekturentscheidungen wurde verworfen.
+Alternative Technologien werden vor einer endgültigen Entscheidung bewertet.
