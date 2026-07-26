@@ -32,6 +32,41 @@ Grundsätzlich:
 - separate Branches für neue Funktionen und Änderungen
 - Pull Requests zur Überprüfung größerer Änderungen
 
+## Entwicklungsablauf
+
+Änderungen werden nach folgendem Ablauf durchgeführt:
+
+1. Änderung planen
+2. Umsetzung in einem separaten Branch durchführen
+3. Änderungen überprüfen
+4. Tests durchführen
+5. Änderung in den Hauptzweig übernehmen
+
+## Commit-Regeln
+
+Commits sollen:
+
+- eine klare Beschreibung der Änderung enthalten
+- eine nachvollziehbare Einheit bilden
+- keine unfertigen Änderungen enthalten
+
+Beispiele:
+
+- Dokumentation: Architekturübersicht erweitern
+- Feature: Benutzerverwaltung hinzufügen
+- Fix: Fehler bei Datenverarbeitung beheben
+
+## Code-Review
+
+Größere Änderungen sollen vor der Übernahme geprüft werden.
+
+Dabei werden insbesondere betrachtet:
+
+- Funktionalität
+- Sicherheit
+- Wartbarkeit
+- Auswirkungen auf bestehende Komponenten
+
 ## Code-Qualität
 
 Der Quellcode soll:
