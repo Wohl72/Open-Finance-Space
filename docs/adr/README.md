@@ -29,3 +29,4 @@ ADRs werden fortlaufend nummeriert:
 |---|---|---|
 | ADR-0001 | Projektgrundlage Open Finance Space | Akzeptiert |
 | ADR-0002 | Technologischer Architekturstack    | Entwurf    |
+| ADR-0003 | Sicherheitsarchitektur              | Entwurf    |
