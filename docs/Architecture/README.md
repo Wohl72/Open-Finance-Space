@@ -50,3 +50,15 @@ Siehe:
 
 - ADR-0001 Projektgrundlage Open Finance Space
 - ADR-0002 Technologischer Architekturstack
+- ADR-0003 Sicherheitsarchitektur
+
+## Sicherheitsarchitektur
+
+Sicherheitsanforderungen werden bereits bei der Architekturplanung berücksichtigt.
+
+Schwerpunkte:
+
+- Schutz von Finanzdaten
+- Zugriffskontrolle und Berechtigungen
+- sichere Kommunikation zwischen Komponenten
+- nachvollziehbare Änderungen durch Versionskontrolle
