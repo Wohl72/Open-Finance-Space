@@ -1,4 +1,4 @@
-# Sicherheitskonzept
+# Sicherheitsarchitektur
 
 ## Zweck
 
@@ -23,7 +23,7 @@ Personenbezogene und finanzbezogene Daten müssen geschützt werden.
 Dabei werden folgende Prinzipien berücksichtigt:
 
 - nur notwendige Daten speichern
-- Zugriff nur für berechtigte Benutzer
+- Zugriff nur für authorisierte Benutzer
 - sichere Übertragung von Daten
 - transparente Verarbeitung
 
@@ -33,7 +33,7 @@ Zugriffe auf Systeme und Daten werden nach dem Prinzip:
 
 "so wenig Rechte wie möglich"
 
-vergeben.
+werden vergeben.
 
 ## Technische Sicherheit
 
@@ -45,6 +45,20 @@ Folgende Bereiche werden berücksichtigt:
 - sichere Schnittstellen (APIs)
 - Protokollierung wichtiger Aktionen
 
+## Sicherheitsmaßnahmen
+
+Die Sicherheitsarchitektur berücksichtigt folgende technische Maßnahmen:
+
+- Authentifizierung von Benutzern und Systemen
+- rollenbasierte Zugriffskontrolle
+- Verschlüsselung sensibler Daten
+- sichere API-Kommunikation
+- Protokollierung sicherheitsrelevanter Aktionen
+
 ## Sicherheitsentscheidungen
 
 Wichtige Sicherheitsentscheidungen werden über Architecture Decision Records (ADRs) dokumentiert.
+
+Siehe:
+
+- ADR-0003 Sicherheitsarchitektur
